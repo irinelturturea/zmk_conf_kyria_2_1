@@ -36,10 +36,10 @@
 // |       |      |      |      |      |      |      |      |      |      |      |      |      |      |      |      |      |      |
 //                       |      |      |      |      |      |      |      |      |      |      |      |      |
             bindings = <
-    &kp RA(Q) &kp LS(MINUS) &bt BT_CLR &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2              &trans &trans &trans &trans &trans &trans
-    &trans    &trans &trans     &bt BT_SEL 3 &bt BT_SEL 4 &trans                    &trans &trans &trans &trans &trans &trans
-    &trans    &trans &trans &trans &trans &trans &trans &trans        &trans &trans &trans &trans &trans &trans &trans &trans
-                         &trans &trans &trans &trans &trans        &trans &trans &trans &trans &trans
+    &trans    &kp RA(Q)      &kp LS(SLASH) &kp RA(N8)       &kp RA(N9)       &kp GRAVE                                             &trans &trans &trans &trans &trans &trans
+    &trans    &kp RA(MINUS)  &kp LS(N7)    &kp RA(N7)       &kp RA(N0)       &kp LS(RBRACKET)                                      &trans &trans &trans &trans &trans &trans
+    &trans    &kp HASH       &kp LS(N4)    &kp RA(BSLASH)   &kp RA(RBRACKET) &kp LS(EQUAL)      &trans &trans        &trans &trans &trans &trans &trans &trans &trans &trans
+                                                                            &trans &trans &trans &trans &trans       &trans &trans &trans &trans &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
