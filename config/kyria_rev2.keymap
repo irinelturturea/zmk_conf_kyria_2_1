@@ -37,8 +37,8 @@
 //                       |      |      |      |      |      |      |      |      |      |      |      |      |
             bindings = <
     &trans    &kp RA(Q)      &kp LS(SLASH) &kp RA(N8)       &kp RA(N9)       &kp GRAVE                                             &trans &trans &trans &trans &trans &trans
-    &trans    &kp RA(MINUS)  &kp LS(N7)    &kp RA(N7)       &kp RA(N0)       &kp LS(RBRACKET)                                      &trans &trans &trans &trans &trans &trans
-    &trans    &kp HASH       &kp LS(N4)    &kp RA(BSLASH)   &kp RA(RBRACKET) &kp LS(EQUAL)      &trans &trans        &trans &trans &trans &trans &trans &trans &trans &trans
+    &trans    &kp RA(MINUS)  &kp LS(N7)    &kp RA(N7)       &kp RA(N0)       &kp LS(RBKT)                                      &trans &trans &trans &trans &trans &trans
+    &trans    &kp HASH       &kp LS(N4)    &kp RA(BSLH)     &kp RA(RBKT)     &kp LS(EQUAL)      &trans &trans        &trans &trans &trans &trans &trans &trans &trans &trans
                                                                             &trans &trans &trans &trans &trans       &trans &trans &trans &trans &trans
             >;
 
