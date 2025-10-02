@@ -23,7 +23,7 @@
     &kp ESC   &kp Q &kp W &kp F &kp P &kp G                                                &kp J &kp L  &kp U     &kp Z   &kp LS(COMMA) &kp BSLH
     &kp TAB   &kp A &kp R &kp S &kp T &kp D                                                &kp H &kp N  &kp E     &kp I   &kp O         &kp SQT
     &kp LSHFT &kp Y &kp X &kp C &kp V &kp B &kp LSHFT &kp LSHFT        &mo 1    &mo 2      &kp K &kp M  &kp COMMA &kp DOT &kp LS(N7)    &kp RCTRL
-                     &kp LGUI &kp DEL &kp RET &kp SPACE &kp TAB        &kp ESC  &kp RET    &kp TAB &kp BSPC &kp RALT
+                    &kp LGUI &kp DEL &kp RET &kp SPACE &lt 2 TAB       &kp ESC  &lt 1 RET  &kp TAB &kp BSPC &kp RALT
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
@@ -53,7 +53,7 @@
 //                       |      |      |      |      |      |      |      |      |      |      |      |      |
             bindings = <
     &trans &trans &bt BT_CLR &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2              &trans &trans &trans &trans &trans &trans
-    &trans &trans &trans     &bt BT_SEL 3 &bt BT_SEL 4 &trans                    &trans &trans &trans &trans &trans &trans
+    &trans &trans &trans     &bt BT_SEL 3 &bt BT_SEL 4 &trans                    &trans &LEFT  &DOWN  &UP    &RIGHT &trans
     &trans &trans &trans &trans &trans &trans &trans &trans        &trans &trans &trans &trans &trans &trans &trans &trans
                          &trans &trans &trans &trans &trans        &trans &trans &trans &trans &trans
             >;
