@@ -52,8 +52,8 @@
 // |       |      |      |      |      |      |      |      |      |      |      |      |      |      |      |      |      |      |
 //                       |      |      |      |      |      |      |      |      |      |      |      |      |
             bindings = <
-    &trans &trans &bt BT_CLR &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2              &trans &trans &trans &trans &trans &trans
-    &trans &trans &trans     &bt BT_SEL 3 &bt BT_SEL 4 &trans                    &trans &LEFT  &DOWN  &UP    &RIGHT &trans
+    &trans &trans &bt BT_CLR &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2              &trans &trans    &trans    &trans    &trans    &trans
+    &trans &trans &trans     &bt BT_SEL 3 &bt BT_SEL 4 &trans                    &trans &kp LEFT  &kp DOWN  &kp UP    &kp RIGHT &trans
     &trans &trans &trans &trans &trans &trans &trans &trans        &trans &trans &trans &trans &trans &trans &trans &trans
                          &trans &trans &trans &trans &trans        &trans &trans &trans &trans &trans
             >;
